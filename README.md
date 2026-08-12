@@ -6,6 +6,9 @@ The US is facing a well-documented shortage of skilled tradespeople. The BLS pro
 ### **Methodology**
 All figures below are drawn from BLS OEWS state-level estimates. Each estimate carries a published margin of error for both employment and wage figures. States with error bands flagged "High" in either metric (thresholds calibrated to this dataset: employment error >8%, wage error >4%) are noted individually and treated with caution rather than excluded outright. Where a finding depends on a flagged state, a sensitivity check (recalculating with that state removed) was run to confirm the result holds.
 
+### **Methodology Note**
+A small number of state-year estimates carry notably higher margins of error than the rest of the dataset, most consistently Vermont (2025 wage error: 7.4%, up from 0.8% in 2024) and Maine (2025 employment error: 9.1%), both small-workforce states where BLS sampling produces less stable percentile estimates. These states are flagged throughout, and any headline ranking they appear in is noted accordingly.
+
 ### **Tools Used**
 * Google Sheets
 * Tableau
@@ -20,5 +23,4 @@ All figures below are drawn from BLS OEWS state-level estimates. Each estimate c
 * Which states have the largest total employment growth between 2023-2025, and does that align with wage growth or dilute it?
 
 
-### **Methodology Note**
-A small number of state-year estimates carry notably higher margins of error than the rest of the dataset, most consistently Vermont (2025 wage error: 7.4%, up from 0.8% in 2024) and Maine (2025 employment error: 9.1%), both small-workforce states where BLS sampling produces less stable percentile estimates. These states are flagged throughout, and any headline ranking they appear in is noted accordingly.
+
