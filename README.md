@@ -1,5 +1,3 @@
-# electrician-wage-analysis
-
 Project Title: State-Level Wage Trends for Electricians in the US from 2023 to 2025
 
 Abstract:
