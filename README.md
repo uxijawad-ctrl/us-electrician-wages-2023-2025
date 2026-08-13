@@ -26,7 +26,9 @@ A small number of state-year estimates carry notably higher margins of error tha
 * Which states have the largest total employment growth between 2023-2025, and does that align with wage growth or dilute it?
 
 ### **Key Findings**
-* Data Reliability: A small number of states show high margins of errors in wage and employment data, most notably Vermont (2025 wage error was 7.4%, up from 0.8% in 2024) and Maine (2025 employment error was 9.1%). Both are states with a small workforce where BLS sampling produces unstable percentile estimates. These states are flagged and noted throughout.
+* A small number of states show high margins of errors in wage and employment data, most notably Vermont (2025 wage error was 7.4%, up from 0.8% in 2024) and Maine (2025 employment error was 9.1%). Both are states with a small workforce where BLS sampling produces unstable percentile estimates. These states are flagged and noted throughout.
+* Average hourly wage increased for nearly every state between 2023 to 2025 - some exceptions were North Dakota, Iowa, Massachusetts, New Mexico, New York, Mississippi and California where wages either declined or stayed relatively stagnant.
+* Median hourly wages saw a similar trend, where they increased in most states but North Dakota, Iowa, Massachusetts and California saw a decrease, while staying relatively stagnant in Minnesota, Indiana, Arizona and Arkansas.
 * 
 
 
