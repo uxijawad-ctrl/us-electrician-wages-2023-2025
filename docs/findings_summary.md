@@ -20,10 +20,15 @@ The US is facing a well-documented shortage of skilled tradespeople. The BLS pro
 
 ## Calculated Metrics
 * **Avg-Median Gap (% of Median)** — `(Average − Median) / Median`, an approximation for wage distribution skew, based on the principle that average and median are equal in a perfectly symmetric distribution, so the size of the gap between them indicates the degree of skew.
+  
 * **Ratio of Top 10% to Bottom 10%** — `Top10 / Bottom10`, normalized inequality measure
+  
 * **% Change (Total, per period)** — `(End − Start) / Start`, calculated for avg, median, top10, bottom10 wages, employment, and density - A normalized measure of change over time, expressed relative to the starting value so that growth can be fairly compared across states with different baseline wage or employment levels.
+  
 * **CAGR** — `(End/Start)^(1/n) − 1`, compound annual growth rate - converts the total 2023 to 2025 change into a single steady annual growth rate (accounted for compounding), rather than simply averaging the year-over-year percentages together.
+  
 * **Avg-Median Growth Delta** — `Median growth % − Average growth %`, if average wages are growing faster than median wages then skew is widening (negative) and in the opposite case the skew is narrowing (positive) over time.
+  
 * **Correlations** — Pearson r via `CORREL()`, tested for density-vs-wages, employment-vs-wages, and employment-growth-vs-skew-delta, each with a sensitivity check excluding Vermont
 
 ## Research Questions
@@ -57,13 +62,21 @@ Vermont was tested as a sensitivity case across every correlation and ranking in
 
 5. **[Pay vs. Demand](https://public.tableau.com/views/WageStatistics-PayvsDemand/PayvsDemand?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 * Electrician density (electricians per 1,000 total jobs) increased in 34 states and decreased in 16 between the 2023-2025 period.
-* 
+  
+* A scatter plot of % change in electrician density against % change in wages shows a weak negative correlation, consistent with a mild supply-side effect: states where the electrician workforce grew faster relative to the overall job market showed a slight tendency toward slower wage growth. The relationship is weak, however, density alone explains only a small share of the state-to-state variation in wage growth, and this cannot establish causation.
+  
+* A separate scatter plot of % change in total employment against % change in wages shows a similarly weak negative correlation. Because total employment and employment density are mechanically related (density is derived from employment), these two correlations are not independent confirmations of the same effect, they are two views of largely the same signal.
+  
+* A further test examined whether states with faster-growing electrician employment also showed a widening or narrowing average-median gap over time. This correlation was negligible, indicating that workforce growth does not meaningfully predict whether a state's wage distribution becomes more or less concentrated at the top.
 
 ## Conclusion
+There is no strong evidence that rising electrician density or employment is driving down wages in a broad, consistent way across states; both relationships tested here were weak, and a more direct test (does growing employment predict widening wage inequality) came back essentially null. Average hourly wages rose in the large majority of states over 2023-2025, though a handful of states saw the typical (median) worker's pay stagnate or decline even as the average rose, pointing to more localized wage-skew issue rather than a nationwide pattern. The average-median gap and the top-10%-vs-bottom-10% growth split were both roughly even across states, some widening while some narrowing, but with no dominant national direction.
 
+Taken together, these findings suggest that the electrician labor shortage described by BLS and NECA is unlikely to be explained primarily by wages failing to keep pace with demand at the state level. Other factors outside this dataset, such as the rate of retirements, the state level electrician licensing boards and certifications and training pipelines are more plausible drivers of the gap than simple wage/supply dynamics alone.
 
 ## Limitations
-
+* Wages are nominal, not inflation adjusted.
+* States that had small sample sizes carry higher estimate volatility e.g. Vermont and Maine.
 
 ## Tools Used/Dashboard
  * Google Sheets
