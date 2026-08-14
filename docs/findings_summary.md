@@ -19,7 +19,6 @@
 
 
 ## Calculated Metrics
-Brief description + formula for each, this is the "how" section:
 * **Avg-Median Gap (% of Median)** — `(Average − Median) / Median`, a proxy for wage distribution skew
 * **Ratio of Top 10% to Bottom 10%** — `Top10 / Bottom10`, normalized inequality measure
 * **% Change (Total, per period)** — `(End − Start) / Start`, calculated for avg, median, top10, bottom10 wages, employment, and density
