@@ -33,6 +33,9 @@ A small number of state-year estimates carry notably higher margins of error tha
 * Median hourly wages saw a similar trend, where they increased in most states but North Dakota, Iowa, Massachusetts and California saw a decrease, while staying relatively stagnant in Minnesota, Indiana, Arizona and Arkansas.
   
 * Looking across all states, the maximum wage gap recorded has trended downward from 2023-2025, however there were variations on a state level where some states narrowed their wage gap while others widened it.
+
+<img width="568" height="321" alt="Where Pay Stands" src="https://github.com/user-attachments/assets/96bb3a7c-46a6-43f7-8ec9-90fd75cbf5c8" />
+
   
 * A small group of states consistently showed a negative skew (average below median) across all three years: Connecticut, Illinois, Mississippi, Oregon and Wisconsin. A wider group of 10-13 states shows negative skew in any single year, but most of these are inconsistent from year to year, suggesting the wider count includes meaningful estimation noise, while the five consistent states may reflect a genuine, structural feature of those markets.
   
@@ -40,21 +43,16 @@ A small number of state-year estimates carry notably higher margins of error tha
   
 * Electrician density (electricians per 1,000 total jobs) increased in 34 states and decreased in 16 over the period.
 
+<img width="575" height="333" alt="How Pay Changed" src="https://github.com/user-attachments/assets/5e60d133-29d7-45a5-9131-5124c8acaef4" />
+
+
 * A scatter plot of % change in electrician density against % change in wages showed a weak negative correlation. States where the electrician workforce grew faster relative to the overall job market showed a slight tendency toward slower wage growth, however this relationship is weak.
 
 * California has by far the largest electrician workforce of any state, exceeding the next-largest by a wide margin. A separate scatter plot of % change in total employment against % change in wages shows a similarly weak negative correlation.
 
 * A further test examined whether states with faster-growing electrician employment also showed a widening or narrowing average-median gap over time. This correlation was negligible, indicating that workforce growth does not meaningfully predict whether a state's wage distribution becomes more or less concentrated at the top.
 
-### **Dashboards**
-
-* <img width="568" height="321" alt="Where Pay Stands" src="https://github.com/user-attachments/assets/96bb3a7c-46a6-43f7-8ec9-90fd75cbf5c8" />
-
-
-* <img width="575" height="333" alt="How Pay Changed" src="https://github.com/user-attachments/assets/5e60d133-29d7-45a5-9131-5124c8acaef4" />
-
-
-* <img width="581" height="338" alt="Pay vs Demand" src="https://github.com/user-attachments/assets/afafaf54-b8aa-4a67-a360-edbea23d9fc9" />
+<img width="581" height="338" alt="Pay vs Demand" src="https://github.com/user-attachments/assets/afafaf54-b8aa-4a67-a360-edbea23d9fc9" />
 
 
 
