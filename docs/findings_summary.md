@@ -41,9 +41,9 @@ A small number of state-year estimates carry notably higher margins of error tha
 Vermont was tested as a sensitivity case across every correlation and ranking in this analysis, given its flagged reliability status and its consistent appearance as a statistical outlier. In each case, excluding Vermont changed the result only modestly, confirming the overall patterns are not artifacts of a single unreliable data point.
 
 ## Findings
-1. **Where Pay Stands**
+1. **[Where Pay Stands](https://public.tableau.com/views/WageStatistics-WherePayStands/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
-2. **How Pay Changed**
+2. **[How Pay Changed](https://public.tableau.com/views/WageStatistics-HowPayChanged/HowPayChanged?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 3. **[Pay vs. Demand](https://public.tableau.com/views/WageStatistics-PayvsDemand/PayvsDemand?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
@@ -51,6 +51,7 @@ Vermont was tested as a sensitivity case across every correlation and ranking in
 
 
 ## Limitations
+
 
 ## Tools Used/Dashboard
  * Google Sheets
