@@ -55,8 +55,10 @@ A small number of state-year estimates carry notably higher margins of error tha
   <img width="581" height="338" alt="Pay vs Demand" src="https://github.com/user-attachments/assets/afafaf54-b8aa-4a67-a360-edbea23d9fc9" />
 
 
+### Conclusion
+Although data varies state by state, there is no strong evidence linking an increased number of electricians with wages getting suppressed across states. The ongoing labor shortage could be a result of other factors such as retirement timing, state licensing and training procedures etc, rather than wages failing to keep pace with demand.
 
-
+📄 [Read the full write-up](docs/findings_summary.md)
 
 
 
