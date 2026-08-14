@@ -48,9 +48,11 @@ A small number of state-year estimates carry notably higher margins of error tha
 
 ### **Dashboards**
 
-<img width="1419" height="802" alt="Where Pay Stands" src="https://github.com/user-attachments/assets/96bb3a7c-46a6-43f7-8ec9-90fd75cbf5c8" />
+<img width="993" height="561" alt="Where Pay Stands" src="https://github.com/user-attachments/assets/96bb3a7c-46a6-43f7-8ec9-90fd75cbf5c8" />
+
 
 <img width="1437" height="832" alt="How Pay Changed" src="https://github.com/user-attachments/assets/5e60d133-29d7-45a5-9131-5124c8acaef4" />
+
 
 <img width="1452" height="846" alt="Pay vs Demand" src="https://github.com/user-attachments/assets/afafaf54-b8aa-4a67-a360-edbea23d9fc9" />
 
