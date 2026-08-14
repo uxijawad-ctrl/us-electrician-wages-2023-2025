@@ -19,11 +19,11 @@ The US is facing a well-documented shortage of skilled tradespeople. The BLS pro
 
 
 ## Calculated Metrics
-* **Avg-Median Gap (% of Median)** — `(Average − Median) / Median`, a proxy for wage distribution skew
+* **Avg-Median Gap (% of Median)** — `(Average − Median) / Median`, an approximation for wage distribution skew, based on the principle that average and median are equal in a perfectly symmetric distribution, so the size of the gap between them indicates the degree of skew.
 * **Ratio of Top 10% to Bottom 10%** — `Top10 / Bottom10`, normalized inequality measure
-* **% Change (Total, per period)** — `(End − Start) / Start`, calculated for avg, median, top10, bottom10 wages, employment, and density
-* **CAGR** — `(End/Start)^(1/n) − 1`, smoothed annual growth rate
-* **Avg-Median Growth Delta** — `Median growth % − Average growth %`, whether skew is widening (negative) or narrowing (positive) over time
+* **% Change (Total, per period)** — `(End − Start) / Start`, calculated for avg, median, top10, bottom10 wages, employment, and density - A normalized measure of change over time, expressed relative to the starting value so that growth can be fairly compared across states with different baseline wage or employment levels.
+* **CAGR** — `(End/Start)^(1/n) − 1`, compound annual growth rate - converts the total 2023 to 2025 change into a single steady annual growth rate (accounted for compounding), rather than simply averaging the year-over-year percentages together.
+* **Avg-Median Growth Delta** — `Median growth % − Average growth %`, if average wages are growing faster than median wages then skew is widening (negative) and in the opposite case the skew is narrowing (positive) over time.
 * **Correlations** — Pearson r via `CORREL()`, tested for density-vs-wages, employment-vs-wages, and employment-growth-vs-skew-delta, each with a sensitivity check excluding Vermont
 
 ## Research Questions
@@ -42,10 +42,22 @@ Vermont was tested as a sensitivity case across every correlation and ranking in
 
 ## Findings
 1. **[Where Pay Stands](https://public.tableau.com/views/WageStatistics-WherePayStands/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+* Average hourly wage increased for nearly every state between 2023 to 2025 - some exceptions were North Dakota, Iowa, Massachusetts, New Mexico, New York, Mississippi and California where wages either declined or stayed relatively stagnant.
+  
+* For Avg-Median Wage Gap, the highest single gap recorded across the three years was Vermont in 2025, at 15.7% of median, though this coincides with Vermont's flagged reliability issue that year and should be read cautiously. Excluding Vermont, the next-highest gap was New Jersey in 2023, at 15.1% of median. Looking across all states, the maximum gap recorded in any given year has trended downward from 2023 to 2025, though there were variations at the individual state level, some states' wage gaps widened over the period while others narrowed.
+  
+* The ratio of Top 10% wage earners vs Bottom 10% wage earners was calculated to measure how much more the Top 10% are making - New Jersey had the highest ratio in 2024 with the Top 10% making 3.36x the Bottom 10% electricians, California followed in 2025 with the Top 10% making 2.99x the Bottom 10%. Overall, 25 states showed this ratio on a declining trend from 2023-2025, suggesting the gap between Top 10% wages and Bottom 10% wages was reducing, while the other 25 states showed the opposite trend.
+  
+* A small group of states consistently showed a negative skew (average below median) across all three years: Connecticut, Illinois, Mississippi, Oregon and Wisconsin. A wider group of 10-13 states shows negative skew in any single year, but most of these are inconsistent from year to year, suggesting the wider count includes meaningful estimation noise, while the five consistent states may reflect a genuine, structural feature of those markets.
 
-2. **[How Pay Changed](https://public.tableau.com/views/WageStatistics-HowPayChanged/HowPayChanged?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+3. **[How Pay Changed](https://public.tableau.com/views/WageStatistics-HowPayChanged/HowPayChanged?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+* The change in wage gap between the top 10% vs the bottom 10% from 2023 to 2025 was split evenly between the 50 states. 25 states showed an increasing difference, meaning top 10% earners grew their wages faster than bottom 10%, and the other 25 showed the opposite trend of narrowing inequality. Vermont showed an exceptionally high wage gap, however, this again coincides with Vermonts flagged wage error %.
 
-3. **[Pay vs. Demand](https://public.tableau.com/views/WageStatistics-PayvsDemand/PayvsDemand?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+* Median hourly wages increased for nearly every state, however, North Dakota, Iowa, Massachusetts and California saw a decrease, while staying relatively stagnant in Minnesota, Indiana, Arizona and Arkansas. California's average hourly wage rose over the period even as its median fell, this is a concrete sign of a widening wage gap: a small group of high earners pulled the average up while the typical (median) electrician's pay actually fell. It should be noted that California has by far the largest electrician workforce of any state, exceeding the next-largest by a wide margin.
+
+5. **[Pay vs. Demand](https://public.tableau.com/views/WageStatistics-PayvsDemand/PayvsDemand?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+* Electrician density (electricians per 1,000 total jobs) increased in 34 states and decreased in 16 between the 2023-2025 period.
+* 
 
 ## Conclusion
 
