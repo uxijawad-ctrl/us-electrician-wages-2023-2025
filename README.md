@@ -52,7 +52,7 @@ A small number of state-year estimates carry notably higher margins of error tha
 
 * A further test examined whether states with faster-growing electrician employment also showed a widening or narrowing average-median gap over time. This correlation was negligible, indicating that workforce growth does not meaningfully predict whether a state's wage distribution becomes more or less concentrated at the top.
 
-  <img width="581" height="338" alt="Pay vs Demand" src="https://github.com/user-attachments/assets/afafaf54-b8aa-4a67-a360-edbea23d9fc9" />
+  <img width="581" height="338" alt="Screenshot 2026-08-14 at 07 15 46" src="https://github.com/user-attachments/assets/5ae2349b-196a-41a3-894a-3d719b68dc65" />
 
 
 ### Conclusion
