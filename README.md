@@ -40,11 +40,10 @@ A small number of state-year estimates carry notably higher margins of error tha
 * A small group of states consistently showed a negative skew (average below median) across all three years: Connecticut, Illinois, Mississippi, Oregon and Wisconsin. A wider group of 10-13 states shows negative skew in any single year, but most of these are inconsistent from year to year, suggesting the wider count includes meaningful estimation noise, while the five consistent states may reflect a genuine, structural feature of those markets.
   
 * The difference between the top 10% vs the bottom 10% wage growth was split evenly between the 50 states. 25 states showed an increasing difference, meaning top 10% earners grew their wages faster than bottom 10%, and the other 25% showed the opposite trend between 2023-2025.
-  
-* Electrician density (electricians per 1,000 total jobs) increased in 34 states and decreased in 16 over the period.
 
   <img width="575" height="333" alt="How Pay Changed" src="https://github.com/user-attachments/assets/5e60d133-29d7-45a5-9131-5124c8acaef4" />
 
+* Electrician density (electricians per 1,000 total jobs) increased in 34 states and decreased in 16 over the period.
 
 * A scatter plot of % change in electrician density against % change in wages showed a weak negative correlation. States where the electrician workforce grew faster relative to the overall job market showed a slight tendency toward slower wage growth, however this relationship is weak.
 
