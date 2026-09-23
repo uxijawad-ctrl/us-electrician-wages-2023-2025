@@ -57,7 +57,7 @@ A small number of state-year estimates carry notably higher margins of error tha
 ### Conclusion
 Although data varies state by state, there is no strong evidence linking an increased number of electricians with wages getting suppressed across states. The ongoing labor shortage could be a result of other factors such as retirement timing, state licensing and training procedures etc, rather than wages failing to keep pace with demand.
 
-📄 [Read the complete summary](docs/findings_summary.md)
+📄 [Read the complete summary](docs/complete_analysis.md)
 
 
 
